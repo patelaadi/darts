@@ -1,0 +1,9 @@
+function collision(dart,wall){
+    if(dart.x-wall.x < wall.width/2+dart.width/2
+    && wall.x- dart.x < wall.width/2+dart.width/2){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
